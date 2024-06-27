@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./static/black-370118.png');
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "AirstrikeSecond";
+  src: local("AirstrikeSecond"),url("./fonts/airstrikecond.ttf");
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.root{
+  width:max-content;
+}
+
+.chip{
+  padding: 6px 13px;
+  background-color: #898989;
+  border-radius: 23px;
+  color: white;
+  border: none;
+  font-size: large;
+  font-family: 'AirstrikeSecond';
+  margin: 4px 9px;
+}
+
+@media (min-width:0px) and (max-width:550px){
+  .chip{
+    font-size: small;
+  }
+}
+
+.hover:hover{
+  background-color: white;
+  color:black;
+  transition: 0.3s all ease;
+}
+
+.typography{
+  font-family: "AirstrikeSecond";
+  margin: 10px;
+}
